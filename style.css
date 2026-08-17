@@ -1055,6 +1055,13 @@ html[data-theme="light"] .proj-card figure img { background: #e4e1d9; }
   .project-media-grid .media-span-two video { height: auto; }
   .next-project a { font-size: clamp(2.5rem, 14vw, 5rem); }
 
+  .case-section--with-text {
+    grid-template-columns: 1fr !important;
+  }
+  .case-section--with-text .project-media-grid {
+    order: -1;
+  }
+
   .cv-page { padding-top: 5rem; }
   .cv-hero { display: block; min-height: auto; }
   .cv-hero-left h1 { font-size: clamp(3rem, 18vw, 5rem); line-height: .8; margin: 3rem 0; }
